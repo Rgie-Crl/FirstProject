@@ -35,6 +35,14 @@
         h2 {
             color: #00796b;
         }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #00796b;
+            margin-bottom: 20px;
+        }
         .skills, .projects {
             display: flex;
             justify-content: space-around;
@@ -67,78 +75,79 @@
   </head>
   <body>
     <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Reggie B. Carolino - A Passionate Web Developer</p>
-</header>
-
-<section>
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            I'm a web developer with a background in computer science and a love for creating clean, responsive websites and applications. I specialize in HTML, CSS, JavaScript, and React.
-        </p>
-    </div>
-</section>
-
-<section>
-    <div class="container">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div>
-                <h3>HTML</h3>
-                <p>Proficient in HTML5 for structuring web content.</p>
-            </div>
-            <div>
-                <h3>CSS</h3>
-                <p>Experienced in creating beautiful and responsive layouts using CSS3.</p>
-            </div>
-            <div>
-                <h3>JavaScript</h3>
-                <p>Building interactive websites with JavaScript.</p>
-            </div>
-            <div>
-                <h3>React</h3>
-                <p>Building dynamic user interfaces with React.js.</p>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Reggie B. Carolino - A Passionate Web Developer</p>
+    </header>
+    
+    <section>
+        <div class="container">
+            <img src="https://cdna.artstation.com/p/assets/images/images/045/934/458/large/serik-pudge-frontnew.jpg?1643891914&dl=1" alt="Your Profile Picture" class="profile-img"> <!-- Add your profile picture here -->
+            <h2>About Me</h2>
+            <p>
+                I'm a web developer with a background in computer science and a love for creating clean, responsive websites and applications. I specialize in HTML, CSS, JavaScript, and React.
+            </p>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>
+                    <h3>HTML</h3>
+                    <p>Proficient in HTML5 for structuring web content.</p>
+                </div>
+                <div>
+                    <h3>CSS</h3>
+                    <p>Experienced in creating beautiful and responsive layouts using CSS3.</p>
+                </div>
+                <div>
+                    <h3>JavaScript</h3>
+                    <p>Building interactive websites with JavaScript.</p>
+                </div>
+                <div>
+                    <h3>React</h3>
+                    <p>Building dynamic user interfaces with React.js.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section>
-    <div class="container">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div>
-                <h3>Project 1: Portfolio Website</h3>
-                <p>A responsive personal portfolio website showcasing my skills and projects.</p>
-                <a href="#">View Project</a>
-            </div>
-            <div>
-                <h3>Project 2: E-Commerce App</h3>
-                <p>An e-commerce website built with React and integrated with a payment system.</p>
-                <a href="#">View Project</a>
-            </div>
-            <div>
-                <h3>Project 3: Task Manager</h3>
-                <p>A task management app to track tasks and deadlines, built with JavaScript.</p>
-                <a href="#">View Project</a>
+    </section>
+    
+    <section>
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div>
+                    <h3>Project 1: Portfolio Website</h3>
+                    <p>A responsive personal portfolio website showcasing my skills and projects.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div>
+                    <h3>Project 2: E-Commerce App</h3>
+                    <p>An e-commerce website built with React and integrated with a payment system.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div>
+                    <h3>Project 3: Task Manager</h3>
+                    <p>A task management app to track tasks and deadlines, built with JavaScript.</p>
+                    <a href="#">View Project</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section>
-    <div class="container">
-        <h2>Contact Me</h2>
-        <p>If you'd like to get in touch or collaborate, feel free to send me a message!</p>
-        <p>Email: <a href="mailto:testjimenez17@gmail.com">testjimenez17@gmail.com</a></p>
-        <p>Phone: +63 9297618514</p>
-    </div>
-</section>
-
-<footer>
-    <p>© 2025 Reggie B. Carolino. All rights reserved.</p>
-</footer>
+    </section>
+    
+    <section>
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch or collaborate, feel free to send me a message!</p>
+            <p>Email: <a href="mailto:testjimenez17@gmail.com">testjimenez17@gmail.com</a></p>
+            <p>Phone: +63 9297618514</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2025 Reggie B. Carolino. All rights reserved.</p>
+    </footer>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
